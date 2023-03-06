@@ -93,3 +93,8 @@ Here are the key methods of the `HashSet` class:
 | `size()`                 | int         | Gets the current size of the set                    |
 | `contains(Element item)` | boolean     | Checks to see if a set contains a specific item     |
 | `isEmpty()`              | boolean     | Checks to see if a list is empty or has a size of 0 |
+
+## References
+
+- [Java 17 Set Interface](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html)
+- [Java 17 HashSet](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html)
