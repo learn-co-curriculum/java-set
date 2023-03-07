@@ -37,7 +37,7 @@ import java.util.HashSet;
 
 public class Example {
     public static void main(String[] args) {
-        Set<String> genres = new HashSet<String>();
+        Set<String> genres = new HashSet<>();
 
         genres.add("Fiction");
         genres.add("Non-fiction");
@@ -68,14 +68,14 @@ Another way we could have written the above example is to define the set as a
 `HashSet` from the start like so:
 
 ```java
-HashSet<String> genres = new HashSet<String>();
+HashSet<String> genres = new HashSet<>();
 ```
 
 If we know about how many items we will be putting in our set, we could
 also specify the `HashSet` size like so:
 
 ```java
-HashSet<String> genres = new HashSet<String>(3);
+Set<String> genres = new HashSet<>(3);
 ```
 
 In the above line of code, we are saying we are expecting there to be about 3
